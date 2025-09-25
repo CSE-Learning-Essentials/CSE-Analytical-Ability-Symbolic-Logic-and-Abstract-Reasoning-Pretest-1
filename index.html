@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Civil Service Exam Pretest 1</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  .quiz-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2, p {
+    text-align: center;
+  }
+  .question-block {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .image-sequence {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .image-sequence img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px 0;
+  }
+  .choices {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .choices li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .choices input {
+    margin-bottom: 6px;
+  }
+  .label-letter {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .correct {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .incorrect {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>PRETEST</h1>
+<h2>CIVIL SERVICE EXAM PRETEST 1</h2>
+<p><strong>Created by:</strong> CSE Learning Essentials</p>
+<p><strong>Section 2:</strong> Analytical Ability – Part 2: Symbolic Logic and Abstract Reasoning</p>
+<p><strong>Passing Score:</strong> 8</p>
+<p><em>Directions:</em> Study the figures provided and choose the correct answer from the options given.</p>
+
+<div class="quiz-container">
+<form id="quizForm">
+  <!-- Template for 10 questions -->
+  <div class="question-block" id="q1">
+    <div class="question">1. Which figures complete the series?</div>
+    <div class="image-sequence"><img src="images/q1_sequence.png" alt="Q1 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q1" value="A"><img src="images/q1_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q1" value="B"><img src="images/q1_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q1" value="C"><img src="images/q1_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q1" value="D"><img src="images/q1_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q1"></div>
+  </div>
+
+  <div class="question-block" id="q2">
+    <div class="question">2. Which figures complete the series?</div>
+    <div class="image-sequence"><img src="images/q2_sequence.png" alt="Q2 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q2" value="A"><img src="images/q2_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q2" value="B"><img src="images/q2_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q2" value="C"><img src="images/q2_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q2" value="D"><img src="images/q2_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q2"></div>
+  </div>
+
+  <div class="question-block" id="q3">
+    <div class="question">3. Which figure completes the statement?</div>
+    <div class="image-sequence"><img src="images/q3_sequence.png" alt="Q3 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q3" value="A"><img src="images/q3_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q3" value="B"><img src="images/q3_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q3" value="C"><img src="images/q3_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q3" value="D"><img src="images/q3_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q3"></div>
+  </div>
+
+  <div class="question-block" id="q4">
+    <div class="question">4. Which figure completes the statement?</div>
+    <div class="image-sequence"><img src="images/q4_sequence.png" alt="Q4 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q4" value="A"><img src="images/q4_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q4" value="B"><img src="images/q4_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q4" value="C"><img src="images/q4_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q4" value="D"><img src="images/q4_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q4"></div>
+  </div>
+
+  <div class="question-block" id="q5">
+    <div class="question">5. Which figure is the odd one out?</div>
+    <ul class="choices">
+      <li><input type="radio" name="q5" value="A"><img src="images/q5_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q5" value="B"><img src="images/q5_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q5" value="C"><img src="images/q5_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q5" value="D"><img src="images/q5_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q5"></div>
+  </div>
+
+  <div class="question-block" id="q6">
+    <div class="question">6. Which figure is the odd one out?</div>
+    <ul class="choices">
+      <li><input type="radio" name="q6" value="A"><img src="images/q6_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q6" value="B"><img src="images/q6_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q6" value="C"><img src="images/q6_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q6" value="D"><img src="images/q6_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q6"></div>
+  </div>
+
+  <div class="question-block" id="q7">
+    <div class="question">7. Which figure completes the matrix?</div>
+    <div class="image-sequence"><img src="images/q7_sequence.png" alt="Q7 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q7" value="A"><img src="images/q7_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q7" value="B"><img src="images/q7_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q7" value="C"><img src="images/q7_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q7" value="D"><img src="images/q7_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q7"></div>
+  </div>
+
+  <div class="question-block" id="q8">
+    <div class="question">8. Which figure completes the matrix?</div>
+    <div class="image-sequence"><img src="images/q8_sequence.png" alt="Q8 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q8" value="A"><img src="images/q8_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q8" value="B"><img src="images/q8_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q8" value="C"><img src="images/q8_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q8" value="D"><img src="images/q8_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q8"></div>
+  </div>
+
+  <div class="question-block" id="q9">
+    <div class="question">9. Which figure belongs in neither group?</div>
+    <div class="image-sequence"><img src="images/q9_sequence.png" alt="Q9 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q9" value="A"><img src="images/q9_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q9" value="B"><img src="images/q9_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q9" value="C"><img src="images/q9_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q9" value="D"><img src="images/q9_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q9"></div>
+  </div>
+
+  <div class="question-block" id="q10">
+    <div class="question">10. Which figure belongs in neither group?</div>
+    <div class="image-sequence"><img src="images/q10_sequence.png" alt="Q10 sequence"></div>
+    <ul class="choices">
+      <li><input type="radio" name="q10" value="A"><img src="images/q10_choiceA.png"><span class="label-letter">A</span></li>
+      <li><input type="radio" name="q10" value="B"><img src="images/q10_choiceB.png"><span class="label-letter">B</span></li>
+      <li><input type="radio" name="q10" value="C"><img src="images/q10_choiceC.png"><span class="label-letter">C</span></li>
+      <li><input type="radio" name="q10" value="D"><img src="images/q10_choiceD.png"><span class="label-letter">D</span></li>
+    </ul>
+    <div class="feedback" id="feedback-q10"></div>
+  </div>
+
+  <button type="button" onclick="submitQuiz()">Submit All</button>
+  <div id="finalScore"></div>
+</form>
+</div>
+
+<div class="social-link">
+  <p>Follow us on <a href="https://www.facebook.com/cselearningessentials/" target="_blank" rel="noopener noreferrer">Facebook</a> for more updates!</p>
+  <p>Subscribe to our YouTube Channel <a href="https://www.youtube.com/@cselearningessentialsph2023" target="_blank" rel="noopener noreferrer">here</a> for more content!</p>
+</div>
+
+<div class="advertisement">
+  <img src="images/advertisement.png" alt="Civil Service E-book" style="width: 100%; max-width: 400px; display: block; margin: 0 auto 15px auto; border-radius: 5px;">
+  <p>Avail our latest Civil Service Exam Reviewer E-book. Direct message us for more details!</p>
+</div>
+
+<script>
+function submitQuiz() {
+  const totalQuestions = 10;
+  let score = 0;
+
+  const answers = {
+    q1: 'D',
+    q2: 'A',
+    q3: 'B',
+    q4: 'D',
+    q5: 'B',
+    q6: 'C',
+    q7: 'C',
+    q8: 'A',
+    q9: 'B',
+    q10: 'D'
+  };
+
+  for (let key in answers) {
+    const selected = document.querySelector(`input[name="${key}"]:checked`);
+    const feedback = document.getElementById(`feedback-${key}`);
+    feedback.innerHTML = "";
+
+    if (!selected) {
+      feedback.innerHTML = `<div class="incorrect">Please select an answer for ${key.toUpperCase()}.</div>`;
+      continue;
+    }
+
+    if (selected.value === answers[key]) {
+      score++;
+      feedback.innerHTML = `<div class="correct">Correct!</div>`;
+    } else {
+      feedback.innerHTML = `<div class="incorrect">Incorrect. The correct answer is ${answers[key]}.</div>`;
+    }
+  }
+
+  const result = document.getElementById("finalScore");
+  result.innerHTML = `<div class="${score >= 8 ? 'correct' : 'incorrect'}">
+    Your score is ${score} out of ${totalQuestions}. ${score >= 8 ? 'You passed!' : 'You did not pass.'}
+  </div>`;
+}
+</script>
+
+</body>
+</html>
